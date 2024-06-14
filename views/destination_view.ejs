@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destination Details</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.destination {
+    margin-top: 20px;
+}
+
+.destination-img {
+    width: 100%;
+    height: auto;
+}
+
+.destination-details {
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.destination-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#tour-plans {
+    margin-top: 20px;
+}
+
+    </style>
+</head>
+<body>
+    <h1><%= tour && tour.title%></h1>
+    <div class="destination">
+        <img src="<%=tour.photo%>" id="destinations." alt="Destination Image" class="destination-img">
+        <div class="destination-details">
+            <p><b><%= tour.city %>:-</b><%= tour.desc%>
+                
+            </p>
+        </div>
+        <a href="/book-package?title=<%= tour.title %>"><button id="search-agencies">Book Now</button></a>
+        <div id="tour-plans"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

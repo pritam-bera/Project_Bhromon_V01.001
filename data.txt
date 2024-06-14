@@ -1,0 +1,48 @@
+Authentication
+packageController
+authMiddleware
+JWT_PRIVATE_KEY : 55min
+
+
+API URL:
+http://localhost:3000/api/auth/test
+http://localhost:3000/api/auth/signup
+http://localhost:3000/api/auth/login
+http://localhost:3000/api/tour
+
+
+JSON DATA:
+//signup
+{
+    "username": "pritam1234",
+    "email": "pritam1234@gmail.com",
+    "password": "$2a$10$BQYIiPfw5ru2AmzjkNbzS.sOC9drG5eeUWzSmq0UkFcq1EbVcry7m",
+    "address": "Kalyani",
+    "phone": "7845126090",
+    "user_role": 0
+}
+//tour information
+{
+    "title": "Jaldapara National Park",
+    "city": "Alipurduar",
+    "address": "In West Bengal, India",
+    "distance": 220,
+    "price": 15000,
+    "maxGroupSize": 5,
+    "desc": "Jaldapara National Park proudly claims the distinction of harboring the largest population of Indian one-horned rhinoceros in the state of West Bengal. This significant achievement underscores the park's unwavering commitment to the preservation of endangered species and the delicate equilibrium within its ecosystem.",
+    "reviews": [],
+
+    "photo": "https://www.wbsfda.org/UploadFiles/Big/16286e45-896c-4a1b-9ab1-c5701d4cd64e.jpg",
+    "featured": false
+  }
+
+{
+    "packageName": "North Bengal Tour",
+    "packageDescription": "Forest Tour",
+    "packageDestination": "Jaldapara National Park",
+    "packageDays": 3,
+    "packageNights": 2,
+    "packagePrice": 10000,
+    "packageDiscountPrice": 8499,
+    "packageRating": 7.5
+}

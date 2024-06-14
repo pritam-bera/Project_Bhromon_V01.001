@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destination Details</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.destination {
+    margin-top: 20px;
+}
+
+.destination-img {
+    width: 100%;
+    height: auto;
+}
+
+.destination-details {
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#tour-plans {
+    margin-top: 20px;
+}
+
+    </style>
+</head>
+<body>
+    <h1>Jaldapara Details</h1>
+    <div class="destination">
+        <img src="assets/images/jalda.jpg" alt="Destination Image" class="destination-img">
+        <div class="destination-details">
+            <p>Jaldapara National Park (Pron: ˌʤʌldəˈpɑ:rə) is a national park situated at the foothills of the Eastern Himalayas in Alipurduar District of northern West Bengal, India, and on the banks of the Torsa River. It is situated at an elevation of 61 m (200 ft) and is spread across 216.51 km2 (83.59 sq mi) of vast grassland with patches of riverine forest.[1] It was declared a sanctuary in 1941 for protection of its great variety of flora and fauna. It is a habitat management area.[2]
+
+                Today, Jaldapara National Park has the largest population of the Indian rhinoceros in the state.[3]
+                
+                History
+                Toto tribes and Mech Tribes (Bodos) used to stay in this area before 1800. At that time this place was known as "Totopara". Formerly Jaldapara Wildlife Sanctuary, established in 1941, has been elevated to Jaldapara National Park in May 2014 and is primarily meant for the conservation of the Indian rhinoceros.[4]</p>
+        </div>
+        <button id="search-agencies">Search Tour Plans</button>
+        <div id="tour-plans"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
